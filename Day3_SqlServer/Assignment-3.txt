@@ -1,0 +1,64 @@
+Assignment 3:
+Create a table employee with the following structure
+
+ employee id (Auto Genareated)
+ name
+ exp
+ salary
+ departmant name
+ Manager name
+DateofBirth 
+DateofJoining
+	Here, which column you, will make primary key,
+  	name has to have a value
+	exp can not be less than 2
+Salary can be in between 12000 AND 30000
+Departments can be only HR, Sales, Accts, IT
+Date type should not be less than 1/1/2000 for DateofBirth
+Date type should not be less than 1/1/2018 for DateofJoining
+
+
+What do we call them??
+
+Once, the table is populated , perform following operations:
+1. Display employee id , name , salary.
+ 2.Display employee id , where Employee ID  , name where Name of Employee ,   salary Salary of Employee should be displayed
+3.Display  name  salary and also incremented salary for all the employees
+4. Display Total salary dispursed for all the departments
+5. Display total salary, maximum salary, Average salary given in all the departments
+6. Depending upon salary, arrange the records 
+7. Give a unique sequence to all the employees
+8. Depending upon salary, give ranking to all the employees
+9. Add one more column age in employees table
+10. By default its value shoud be 26
+11. Its range is 26 - 60
+ What value will be there for the records for this column now.
+ How can you put value 26 for all the records
+
+ 
+12. how many departments are there in the department
+13. Display all the names of the employees in upper case
+14. Display only the first four alphabets from all the names
+15. Display the position of second ‘a’ in all the names
+16.Display total number of employees working in every department
+17.Display total number of employees working for every Manager
+18. Display all the records where employee ID is 101, 102 or 110
+19. Give all records where employee id is in between 101 and 100
+20. Give all records where department is HR
+21. Give all records where department is HR or Accts
+22. Give all records where name starts with A
+23. Give all records where name does not contain a
+24. Give all records where average sales is less than 12000 department wise
+25. Give records where department is not Accts and sales is not in between 10000 and 20000
+26. We want that employees of Accts department should not see records of other departments. How do we achieve this?
+27. Give all the Employees who have are born after 2002
+28. Give all employees who have joined in year 2018
+29. Give all employees who have joined in 2018, 2019 and 2020
+30. Give the Age of every employee
+31. Get the list of employees whose Birthday is coming in this month
+32. Allow me to see only those records where salary is more than 15000, less than 12000 and in between 10000 and 12000 
+33. We  should be able to use these separately
+34.Perform Insertion, Deletion and updation through these now
+35. Do not allow to insert or update invalid values through them
+
+
