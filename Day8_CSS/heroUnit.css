@@ -1,0 +1,93 @@
+body{
+  margin: 0;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.header-container
+{
+  height:12vh;
+  background-color: cornflowerblue;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-bottom: 2px solid orange;
+  align-items: center;
+}
+
+.branding img
+{
+  height: 10vh;
+  width: 10vh;
+  padding: 1px;
+}
+
+.nav-bar ul
+{
+   list-style: none;
+}
+.nav-bar ul li
+{
+  display: inline;
+  padding:1px;
+}
+
+.nav-bar ul li a 
+{
+  text-decoration: none;
+  color: white;
+}
+
+.signup
+{
+   background-color: coral;
+   border:2px solid wheat;
+   color:white;
+   width:10vw;
+   padding: 10px;
+   border-radius: 20%;
+
+
+}
+
+.signup:hover{
+   cursor: pointer;
+   color:white;
+   background-color: green;
+
+}
+/* For Section */
+.hero-unit-section{
+
+    height: 80vh;
+    background-image: url("/images/books-690219__340.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.hero-unit-mask
+{
+
+  height:80vh;
+  background-color: black;
+  opacity:.4;
+}
+
+.hero-unit-mask h1{
+  font-size: 5em;
+  margin:0px;
+  color: white;
+  padding-top: 25vh;
+}
+
+.hero-unit-mask a{
+  border-radius: 10px;
+  color: white;
+  background-color: coral;
+  text-decoration: none;
+  padding: 1em;
+   
+  width:10vh;
+  margin: 1em auto;
+}
+

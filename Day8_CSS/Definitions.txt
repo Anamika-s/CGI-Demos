@@ -1,0 +1,16 @@
+What is Parallax in website?
+Parallax scrolling is a computer graphics technique used by web designers to create a faux-3D effect. As users scroll down a webpage, different layers of content or backgrounds move at different speeds, and this creates an optical illusion. ... used parallax graphics to create a sensation of depth.
+
+Hero Unit blocks are large visual elements that are meant to grab attention and showcase key content. Many options for layout make it extremely versatile. You can enter any amount of text, and have any quantity of linked buttons at the bottom. It will stretch or shrink to fit the region in which it is placed.
+
+overlay : the background-color is mixed with the background-image to reflect the lightness or darkness of the backdrop. darken : if the background-image is darker than the background-color then the image is replaced, otherwise it is left as it was.
+
+background-size:cover; means the background image will always fit the whole div , you won't be left with any empty spots in your div background-size:100% 100%
+
+
+What is the viewport in a browser?
+A viewport represents a polygonal (normally rectangular) area in computer graphics that is currently being viewed. In web browser terms, it refers to the part of the document you're viewing which is currently visible in its window (or the screen, if the document is being viewed in full screen mode).
+
+
+What is hero unit in HTML?
+Usage. The hero image is often the first visual element a visitor encounters on the site; it presents an overview of the site's most important content. A hero image often consists of image and text, and it can be static or dynamic (e.g., a rotating list of images or topics).

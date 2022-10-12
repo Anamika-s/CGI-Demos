@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+   <style>
+    .container
+    {
+      height: 540px;
+      width:100%;
+      border:2px solid green;
+      display: flex;
+      /* flex-direction: column;
+      flex-direction: row-reverse;
+      flex-direction: column-reverse; */
+
+      flex-wrap: wrap;
+    /* flex-flow: column wrap; */
+     justify-content: center;
+     /* justify-content: space-between;
+    justify-content: space-around;
+    justify-content : space-evenly; */
+    align-items: center;
+    /* align-items: stretch;
+    align-items:flex-end; */
+    }
+    .item
+    {
+      height: 100px;
+      width: 100px;
+      background-color: tomato;
+      border:1px solid black;
+      margin: 10px;
+      padding: 10px;
+
+    }
+
+    #item1
+    {
+
+       flex-grow: 3;
+    }
+    #item2
+    {
+      flex-shrink:2;
+      order:11;
+    }
+    #item3
+    {
+      order:10;
+    }
+    #item4
+    {
+      
+    }
+    #item5
+    {
+      
+    }
+   </style>
+</head>
+<body>
+   <div class="container">
+    <div class="item" id="item1"> First Box </div>
+    <div  class="item" id="item2"> Second Box </div>
+    <div  class="item" id="item3"> Third Box </div>
+    <div  class="item" id="item4"> Fourth Box </div>
+    <div  class="item" id="item5"> Fourth Box </div>
+   </div>
+</body>
+</html>
