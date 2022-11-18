@@ -1,0 +1,3 @@
+https://stackify.com/asp-net-core-logging-what-changed/
+
+https://www.tutorialsteacher.com/core/aspnet-core-logging
